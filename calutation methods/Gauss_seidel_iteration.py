@@ -24,7 +24,7 @@ def main(A):
     print("谱半径:", radius)
 #---------------------------------------------
 # Creating the coefficient matrix
-n = 10
+n = 30
 v1 = np.ones(n - 1) * 1
 v2 = np.ones(n) * 6
 v3 = np.ones(n - 1) * 8
