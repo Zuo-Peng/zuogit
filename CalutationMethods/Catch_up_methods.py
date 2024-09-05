@@ -2,7 +2,7 @@
 import numpy as np
 np.set_printoptions(precision=9)
 #--------------------创建系数矩阵和B矩阵----------------------
-n = 30
+n = 10
 A = np.zeros(shape=(n,n) , dtype=np.float64)
 B = 15 * np.ones(shape=(n,1))
 B[0,0] = 7.
